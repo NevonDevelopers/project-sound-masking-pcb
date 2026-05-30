@@ -1,0 +1,48 @@
+LABCENTER PROTEUS TOOL INFORMATION FILE
+=======================================
+
+In case of difficulty, please e-mail support@labcenter.co.uk
+
+Tool set up for Proteus layout 'noise_cancelling_device.pdsprj'.
+CADCAM generated at 13:56:22 on 16 March 2026.
+
+File List
+---------
+Bottom Copper           : noise_cancelling_device - CADCAM Bottom Copper.GBR
+Drill                   : noise_cancelling_device - CADCAM Drill.DRL
+Netlist                 : noise_cancelling_device - CADCAM Netlist.IPC
+
+Photoplotter Setup
+------------------
+Format: RS274X, ASCII, 4.3, metric, absolute, eob=*, LZO
+Notes:  D=Diameter, S=Side, W=Width, H=Height, C=Chamfer, I=Index
+
+D10	CIRCLE  D=1.27mm                                                          DRAW 
+D11	CIRCLE  D=1.27mm                                                          FLASH
+D12	CIRCLE  D=2.032mm                                                         FLASH
+D13	CIRCLE  D=4.05mm                                                          FLASH
+D14	CIRCLE  D=1.778mm                                                         FLASH
+D15	SQUARE  S=2mm                                                             FLASH
+D16	CIRCLE  D=2mm                                                             FLASH
+D17	CIRCLE  D=3.048mm                                                         FLASH
+D18	SQUARE  S=2.68mm                                                          FLASH
+D19	CIRCLE  D=4.4mm                                                           FLASH
+D70	SQUARE  S=2.032mm                                                         FLASH
+D71	CIRCLE  D=0.2032mm                                                        DRAW 
+D20	CIRCLE  D=0.127mm                                                         DRAW 
+D21	CIRCLE  D=0.0635mm                                                        DRAW 
+
+NC Drill Setup
+--------------
+Format: Excellon, ASCII, 4.3, metric, absolute, eob=<CR><LF>, no zero suppression.
+Notes:  Tool sizes are diameters. Layer sets are in brackets - 0=TOP, 15=BOTTOM, 1-14=INNER.
+
+T01	0.508mm (0-15) Plated
+T02	0.762mm (0-15) Plated
+T03	2.7mm (0-15) Plated
+T04	1.016mm (0-15) Plated
+T05	1.524mm (0-15) Plated
+T06	3.175mm (0-15) Plated
+
+
+[END OF FILE]
