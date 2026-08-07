@@ -1,0 +1,55 @@
+LABCENTER PROTEUS TOOL INFORMATION FILE
+=======================================
+
+In case of difficulty, please e-mail support@labcenter.co.uk
+
+Tool set up for Proteus layout 'noise_cancelling_device.pdsprj'.
+CADCAM generated at 11:05:07 on 16 July 2026.
+
+File List
+---------
+Bottom Copper           : noise_cancelling_device - CADCAM Bottom Copper.GBR
+Drill                   : noise_cancelling_device - CADCAM Drill.DRL
+Netlist                 : noise_cancelling_device - CADCAM Netlist.IPC
+
+Photoplotter Setup
+------------------
+Format: RS274X, ASCII, 4.3, metric, absolute, eob=*, LZO
+Notes:  D=Diameter, S=Side, W=Width, H=Height, C=Chamfer, I=Index
+
+D10	CIRCLE  D=1.27mm                                                          DRAW 
+D11	CIRCLE  D=1.778mm                                                         DRAW 
+D12	CIRCLE  D=1.524mm                                                         DRAW 
+D13	CIRCLE  D=2.032mm                                                         DRAW 
+D14	CIRCLE  D=2.54mm                                                          DRAW 
+D15	CIRCLE  D=1.27mm                                                          FLASH
+D16	SQUARE  S=2.68mm                                                          FLASH
+D17	CIRCLE  D=3.048mm                                                         FLASH
+D18	SQUARE  S=2.032mm                                                         FLASH
+D19	SQUARE  S=2mm                                                             FLASH
+D70	CIRCLE  D=2mm                                                             FLASH
+D71	CIRCLE  D=1.524mm                                                         FLASH
+D20	CIRCLE  D=2.032mm                                                         FLASH
+D21	CIRCLE  D=1.778mm                                                         FLASH
+D22	CIRCLE  D=6.35mm                                                          FLASH
+D23	CIRCLE  D=5.08mm                                                          FLASH
+D24	CIRCLE  D=0.2032mm                                                        DRAW 
+D25	CIRCLE  D=0.127mm                                                         DRAW 
+D26	CIRCLE  D=0.0635mm                                                        DRAW 
+
+NC Drill Setup
+--------------
+Format: Excellon, ASCII, 4.3, metric, absolute, eob=<CR><LF>, no zero suppression.
+Notes:  Tool sizes are diameters. Layer sets are in brackets - 0=TOP, 15=BOTTOM, 1-14=INNER.
+
+T01	0.508mm (0-15) Plated
+T02	1.524mm (0-15) Plated
+T03	1.016mm (0-15) Plated
+T04	2.997mm (0-15) Unplated
+T05	0.762mm (0-15) Plated
+T06	3mm (0-15) Plated
+T07	2.032mm (0-15) Plated
+T08	4mm (0-15) Plated
+
+
+[END OF FILE]
